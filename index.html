@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Payment Form</h1>
+    <form method="post">
+        <h2>Account</h2>
+        <div>
+            <input type="text" placeholder="Fullname" required class="Name">
+            <i class="fa fa-user icon"></i>
+        </div>
+        <div>
+            <input type="text" placeholder="Nickname" required class="Nickname">
+            <i class="fa fa-user icon"></i>
+        </div>
+        <div>
+            <input type="text" placeholder="Email Adress" required class=" Email">
+            <i class="fa fa-envelope"></i>
+        </div>
+
+        <div>
+            <h3>Date of Birth</h3>
+            <input type="text" placeholder="DD" required class="DAY">
+            <input type="text" placeholder="MM" required class="MONTH">
+            <input type="text" placeholder="YYYY" required class="YEAR">
+        </div>
+
+        <div>
+            <h3>Gender</h3>
+            <input type="radio" id="M" name="gender" checked class="radio">
+            <label for="M">Male</label>
+            <input type="radio" id="F" name="gender" checked class="radio">
+            <label for="F">Female</label>
+        </div>
+
+        <div>
+            <h3>Payment Details</h3>
+            <input type="radio" id="CC" name="Payment" checked class="radio">
+            <label for="CC"><span><i class="fa fa-cc-visa"></i>Credit Card</span></label>
+
+            <input type="radio" id="PP" name="Payment" required class="radio">
+            <label for="PP"><span> <i class="fa fa-cc-paypal">PayPal</i></span></label>
+        </div>
+        <div>
+            <input type="text" placeholder="Card Number" required class="card number">
+            <i class="fa fa-credit-cardicon"></i>
+        </div>
+        <input type="text" placeholder="Card CVC" required class="CVC">
+        <i class="fa fa-user-"></i>
+        <div>
+            <div>
+                <select>
+                    <option>01 jan</option>
+                    <option>02 jan</option>
+                    <option>03 jan</option>
+                </select>
+                <select>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2021</option>
+                </select>
+                <div>
+                    <button type="submit">PAY NOW</button>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>
