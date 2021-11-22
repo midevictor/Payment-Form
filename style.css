@@ -91,5 +91,6 @@ h2 {
     }
     h2 {
         box-sizing: border-box;
+        display: block;
     }
 }
