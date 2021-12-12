@@ -85,6 +85,7 @@ h2 {
 @media screen and( max-width: 600px) {
     body {
         padding: 20px;
+        width: 100%;
     }
     form {
         width: 100%;
@@ -93,5 +94,11 @@ h2 {
     h2 {
         box-sizing: border-box;
         display: block;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    body {
+        width: 100%;
     }
 }
